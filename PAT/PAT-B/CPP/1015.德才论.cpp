@@ -37,6 +37,7 @@ int main() {
         sort(v[i].begin(), v[i].end(), cmp);
         for (int j = 0; j < v[i].size(); j++)
             printf("%d %d %d\n", v[i][j].num, v[i][j].de, v[i][j].cai);
+        // cout 比 printf 慢， cout会超时
     }
     return 0;
 }
