@@ -8,4 +8,4 @@ while(a != 1):
 print count
 
 
-.
+
