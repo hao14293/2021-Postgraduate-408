@@ -6,3 +6,6 @@ while(a != 1):
       a = 3 * a + 1
     a /= 2
 print count
+
+
+.
