@@ -167,3 +167,7 @@ int main(){
 * 可用于链式存储
 * 移动次数较多，算法平均时间性能比直接插入排序差。当初始记录无序，n较大时，不宜采用.
 ***
+#### 快速排序(Quick Sort)
+
+
+![quickSort.gif](https://i.loli.net/2018/11/18/5bf167ec2b1b6.gif)
