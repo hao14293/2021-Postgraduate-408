@@ -10,7 +10,7 @@ int main() {
         if (s.length() >= 6) {
             int invalid = 0, hasAlpha = 0, hasNum = 0;
             for (int j = 0; j < s.length(); j++) {
-                if (s[j] != '.' && !isalnum(s[j])) invalid = 1;
+                if (s[j] != '.' && !isalnum(s[j])) invalid = 1;   //isalnum() 大小写字母和数字
                 else if (isalpha(s[j])) hasAlpha = 1;
                 else if (isdigit(s[j])) hasNum = 1;
             }
