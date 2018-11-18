@@ -1,12 +1,18 @@
 # 2020-Postgraduate-408
 
-| 科目 | 复习笔记 |
-| -----| -------|
-| 数据结构 | [数据结构.md](https://github.com/hao14293/2020-Postgraduate-408/blob/master/Data-Structure/Data-Structure.md) |
-| 计算机网络 | 暂无 |
-| 计算机组成原理 | 暂无 |
-| 操作系统 | 暂无 |
+## 数据结构
+* [绪论]()
+* [线性表]()
+* [栈和队列]()
+* [串、数组和广义表]()
+* [树和二叉树]()
+* [图]()
+* [查找]()
+* [排序]()
 
+## 计算机网络
+## 计算机组成原理
+## 操作系统
 
 ### [历年真题](https://github.com/hao14293/2020-Postgraduate-408/tree/master/old-exam)
 
