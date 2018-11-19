@@ -1,7 +1,7 @@
 ## 排序
-* 插入排序(#insertSort)
-** 直接插入排序
-** 折半插入排序(#binary_insertSort)
+* [插入排序](#insertSort)
+** [直接插入排序]
+** [折半插入排序](#binary_insertSort)
 ### <span id="insertSort">插入排序</span>
 <b>基本思想：</b>每一趟将一个待排序的记录，按其关键字的大小插入到已排好序的一组记录的适当位置上，直到所有待排序记录全部插入为止。
 
