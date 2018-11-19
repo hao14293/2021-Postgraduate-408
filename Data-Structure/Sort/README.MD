@@ -3,11 +3,9 @@
 > [直接插入排序](#straight_insertSort)<br>
 > [折半插入排序](#binary_insertSort)<br>
 > [希尔排序](#shellSort)<br>
-
 * 交换排序
 > [冒泡排序](#bubbleSort)<br>
 > [快速排序](#quickSort)<br>
-
 * 选择排序
 > [简单选择排序](#simple_selectSort)<br>
 > [堆排序](#heapSort)<br>
