@@ -1,14 +1,14 @@
 ## 排序
 * 插入排序
-> [直接插入排序](#straight_insertSort)<br>
-> [折半插入排序](#binary_insertSort)<br>
-> [希尔排序](#shellSort)<br>
+ > [直接插入排序](#straight_insertSort)<br>
+ > [折半插入排序](#binary_insertSort)<br>
+ > [希尔排序](#shellSort)<br>
 * 交换排序
-> [冒泡排序](#bubbleSort)<br>
-> [快速排序](#quickSort)<br>
+ > [冒泡排序](#bubbleSort)<br>
+ > [快速排序](#quickSort)<br>
 * 选择排序
-> [简单选择排序](#simple_selectSort)<br>
-> [堆排序](#heapSort)<br>
+ > [简单选择排序](#simple_selectSort)<br>
+ > [堆排序](#heapSort)<br>
 
 ### <span id="insertSort">插入排序</span>
 <b>基本思想：</b>每一趟将一个待排序的记录，按其关键字的大小插入到已排好序的一组记录的适当位置上，直到所有待排序记录全部插入为止。
