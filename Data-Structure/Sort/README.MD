@@ -9,6 +9,8 @@
 #### 选择排序
 * [简单选择排序](#simple_selectSort)<br>
 * [堆排序](#heapSort)<br>
+#### 归并排序
+* [归并排序](#mergeSort)
 ---
 ### <span id="insertSort">插入排序</span>
 <b>基本思想：</b>每一趟将一个待排序的记录，按其关键字的大小插入到已排好序的一组记录的适当位置上，直到所有待排序记录全部插入为止。
@@ -279,3 +281,70 @@ int main(){
 * 移动记录次数较少，当每一记录占用的空间较多时，此方法比直接插入排序快。
 ***
 #### <span id="heapSort">堆排序(Heap Sort)</span>
+
+### <span id="mergeSort">归并排序(Merging Sort)</span>
+归并排序就是将两个或两个以上的有序表合并成一个有序表的过程。将两个有序表合并称为2-路合并，2-路合并最为简单和常用。<br>
+核心：将两个有序对数组归并成一个更大的有序数组。通常做法为递归排序，并将两个不同的有序数组归并到第三个数组中。
+
+先来看看动图，归并排序是一种典型的分治应用。
+
+![merge_sort.gif](https://i.loli.net/2018/11/19/5bf29aea22ae2.gif)
+
+假设初始序列有n个记录，则可看成是n个有序的子序列，每个子序列的长度为1，然后两两归并，得到 n/2 个长度为2或1的有序子序列；再两两归并，...,直到得到一个长度为n的有序子序列为止。
+
+【算法步骤】
+* 将当前序列一分为二，求出分裂点 mid=(low+high)/2;
+* 对子序列R[low...mid]递归，进行归并排序，结果放入S[low...mid]中；
+* 对子序列R[mid+1...high]递归，进行归并排序，结果放入S[mid+1...high]中；
+* 将两个子序列归并为一个有序的序列.
+
+算法实现
+```cpp
+#include <iostream>
+using namespace std;
+//合并左右子表
+void Merge(int arr[], int left, int mid, int right)
+{
+	int *temp = new int[right - left];
+	int t = 0;
+	int i = left;
+	int j = mid;
+	while(i < mid && j < right){
+		if(arr[i] <= arr[j]) temp[t++] = arr[i++];
+		else temp[t++] = arr[j++];
+	}
+	while(i < mid) temp[t++] = arr[i++];
+	while(j < right) temp[t++] = arr[j++];
+	t = 0;
+	for(int i = left; i < right; i++)
+		arr[i] = temp[t++];
+	delete[] temp;
+}
+//归并排序
+void MSort(int arr[], int left, int right)
+{
+	if(left + 1 < right){
+		int mid = (left + right) / 2;
+		MSort(arr, left, mid);
+		MSort(arr, mid, right);
+		Merge(arr, left, mid, right);
+	}
+}
+
+int main(){
+	int a[] = {6, 5, 2, 8, 4, 1, 3, 7};
+	int len = sizeof(a) / sizeof(a[0]);
+	MSort(a, 0 , len);
+	for(int i = 0; i < len; i++)
+		cout << a[i];
+	return 0;
+}
+```
+【算法分析】
+* 空间复杂度：需要 n 个辅助空间， O(n)。
+* 时间复杂度：当有n各记录时，需进行[log<sub>2</sub>n]趟归并排序，每一趟归并，其关键字比较次数不超过n，元素移动次数都是n，因此，归并排序的时间复杂度为 O(nlog<sub>2</sub>n)。
+
+【算法特点】
+* 是稳定排序。
+* 可用于链式结构，且不需要附加存储空间，但递归实现时仍需要开辟相应的递归工作栈。
+---
