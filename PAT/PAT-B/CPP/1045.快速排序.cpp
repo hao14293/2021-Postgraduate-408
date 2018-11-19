@@ -21,6 +21,6 @@ int main(){
 		printf("%d", v[i]);
 		if(i != tmp-1) printf(" ");
 	}
-	printf("\n");
+	printf("\n");                // 不加这行会有一个测试点通不过，搞不明白。
 	return 0;
 }
