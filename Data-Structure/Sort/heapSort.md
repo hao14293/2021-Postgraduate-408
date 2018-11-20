@@ -1,4 +1,4 @@
-[推荐这篇文章](https://blog.csdn.net/lzuacm/article/details/52853194)
+[可以看看这篇文章](https://github.com/hao14293/2020-Postgraduate-408/blob/master/Data-Structure/Sort/heapsort.md)
 
 __堆排序__ 是一种树形选择排序，在排序过程中，将待排序的记录r[1..n]看成是一棵完全二叉树的顺序存储结构，利用完全二叉树中双亲结点和孩子结点之间的内在关系，在当前无序的序列中选择关键字最大（或最小）的记录。
 
