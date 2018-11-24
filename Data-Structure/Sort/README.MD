@@ -494,6 +494,12 @@ __各种内部排序方法的比较__
 | 直接插入排序 | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) | 稳定 |
 | 折半插入排序 | O(nlog<sub>2</sub>n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) | 稳定 |
 | 希尔排序 |  |  | O(n<sup>1.3</sup> | O(1) | 不稳定 |
+| 冒泡排序 | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) | 稳定 |
+| 简单选择排序 | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) | 稳定 |
+| 快速排序 | O(nlog<sub>2</sub>n) | O(n<sup>2</sup>) | O(nlog<sub>2</sub>n) | O(nlog<sub>2</sub>n) | 不稳定 |
+| 堆排序 | O(nlog<sub>2</sub>n) | O(nlog<sub>2</sub>n) | O(nlog<sub>2</sub>n) | O(1) | 不稳定 |
+| 归并排序 | O(nlog<sub>2</sub>n) | O(nlog<sub>2</sub>n) | O(nlog<sub>2</sub>n) | O(n) | 稳定 |
+| 基数排序 | O(d(n + rd)) | O(d(n + rd)) | O(d(n + rd)) | O(n + rd) | 稳定 |
 
 | 排序方法 | 最好情况 | 最坏情况 | 平均情况 | 空间复杂度 | 稳定性 |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
