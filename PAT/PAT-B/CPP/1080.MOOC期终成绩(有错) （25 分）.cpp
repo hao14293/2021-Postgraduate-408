@@ -7,6 +7,7 @@ struct node{
 	string id;
 	int gp, gpm = -1, gpf = -1, g = 0;
 };
+
 int isExist(string s, string a[], int len){
 	for(int i = 0; i < len; i++){
 		if(a[i] == s) return i;
