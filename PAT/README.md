@@ -1,3 +1,5 @@
+##  有参考 [liuchuo](https://github.com/liuchuo/PAT), 很感谢这么用心的小姐姐
+
 ### C++ 需要学习知识点
 
 * 各种输入输出
