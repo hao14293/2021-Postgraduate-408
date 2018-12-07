@@ -26,7 +26,7 @@
 
 ## PAT
 * [PAT-B](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-B)
-* [PAT-B](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-A)
+* [PAT-A](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-A)
 
 ***
 
