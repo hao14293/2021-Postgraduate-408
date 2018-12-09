@@ -25,7 +25,7 @@
 ***
 
 ## 算法
-
+* [Algorithms](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Algorithm)
 ***
 
 ## PAT
