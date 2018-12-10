@@ -21,10 +21,9 @@ int main(){
 		string temp = s.substr(i, k);
 		if(isPrime(temp)){
 			cout << temp;
-			flag = 1;
-			break;
+			return 0;
 		}
 	}
-	if(!flag) printf("404");
+	printf("404");
 	return 0;
 }
