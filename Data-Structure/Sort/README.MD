@@ -1,4 +1,5 @@
 ## 排序
+
 #### 插入排序
 * [直接插入排序](#straight_insertSort)<br>
 * [折半插入排序](#binary_insertSort)<br>
