@@ -57,7 +57,7 @@ int main(){
 
 第三种： 用数组方式插入数据
 
-···cpp
+```cpp
 #include <iostream>
 #include <map>
 using namespace std;
