@@ -1,10 +1,9 @@
-* 1. 数字 --> 字符串
+
+
   to_string()  // int 型直接转换为string, float、double 小数点后有6位，不满6位会补0
-* 2. 字符串 --> 数字
   atoi (字符串 -- > 整型) （ascii to integer)
   atof (字符串 -- > 浮点型) (ascii to float)
-  
-* 3. 
   toascii
   tolower
   toupper
+  c_str()
