@@ -1,5 +1,6 @@
 ### vector 是一个可以存放任意类型的动态数组，能够增加和压缩数据
 
+<p style="color:red;"> vector<int> a(5) 与 vector<int> a[5] 的区别</p>
 ### 1. 声明和初始化
 头文件 #include <vector>
 
