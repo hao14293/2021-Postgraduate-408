@@ -4,7 +4,7 @@
 
 
 ## 数据结构
-* [绪论](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Data-Structure/Xulun)
+* 绪论
 * [线性表](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Data-Structure/List)
 * [栈和队列](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Data-Structure/Stack)
 * [串、数组和广义表](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Data-Structure/String)
