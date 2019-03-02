@@ -10,7 +10,7 @@
 * 串、数组和广义表
 * 树和二叉树
 * 图
-* [查找](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Data-Structure/Search)
+* 查找
 * [排序](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Data-Structure/Sort)
 
 ***
