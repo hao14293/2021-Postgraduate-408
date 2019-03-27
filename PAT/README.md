@@ -1,13 +1,7 @@
 
 
-### C++ 需要学习知识点
+### [C++ 需要学习知识点](https://github.com/hao14293/2020-Postgraduate-408/tree/master/CPP)
 
-* 各种输入输出  （string.c_str())
-* 位运算 （一些高级算法思想）
-* 容器 vector map set
-* algorithm
-* 指针 -->
-* 结构体 struct typedef
 
 
 
