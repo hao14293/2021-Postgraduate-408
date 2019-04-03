@@ -19,7 +19,6 @@ int main(){
 		for(int k = 0; k < 2 * i - 1; k++) cout << c;
 		cout << endl;
 	}
-	if(N == 1) cout << "0"; // 坑
-	if(t != 0) cout <<  t;
+	cout <<  t;
 	return 0;
 }
