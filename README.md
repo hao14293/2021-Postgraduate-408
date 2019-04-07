@@ -31,33 +31,11 @@
 * 计算机组成原理
 * 操作系统
 
-
-
-
-## 数据结构
-* 绪论
-* 线性表
-* 栈和队列
-* 串、数组和广义表
-* 树和二叉树
-* 图
-* 查找
-* [排序](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Data-Structure/Sort)
-
-***
-
-
-## 计算机网络
-
-***
-
-## 计算机组成原理
-
-***
-
-## 操作系统
-
-***
+可参考教材（大多学校选用以下教材）
+* 数据结构 严薇敏 第二版
+* 计算机网络 谢希仁 第七版
+* 计算机组成原理 唐朔飞 第二版
+* 操作系统 汤子瀛
 
 ## 算法
 * [Algorithms](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Algorithm)
