@@ -82,8 +82,9 @@
 * ...
 
 留个坑位总结常用算法 
+
+* [自己总结的数据结构中的排序算法](https://github.com/hao14293/2020-Postgraduate-408/blob/master/Data-Structure/Sort/README.MD)
 * [Algorithms](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Algorithm)
-* [数据结构中的排序算法](https://github.com/hao14293/2020-Postgraduate-408/blob/master/Data-Structure/Sort/README.MD)
 
 刷OJ 最适合的语言肯定是 <code>CPP</code> 啊
 * [CPP日常总结](https://github.com/hao14293/2020-Postgraduate-408/tree/master/CPP)(有时间的话会更新总结的）
