@@ -72,23 +72,33 @@
 
 [PAT官网](https://www.patest.cn/)， 下面是日常刷题的解答。（日常更新）
 
-
 * [PAT-B](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-B)
 * [PAT-A](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-A)
+
+想刷题的话也有很多其他的网站，如
+* [codeip](http://codeup.cn/)
+* [ZOJ](http://acm.zju.edu.cn/)
+* [HDOJ](http://acm.hdu.edu.cn/)
+* ...
 
 留个坑位总结常用算法 
 * [Algorithms](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Algorithm)
 * [数据结构中的排序算法](https://github.com/hao14293/2020-Postgraduate-408/blob/master/Data-Structure/Sort/README.MD)
 
+刷OJ 最适合的语言肯定是 <code>CPP</code> 啊
+* [CPP日常总结](https://github.com/hao14293/2020-Postgraduate-408/tree/master/CPP)(有时间的话会更新总结的）
 
 
 
 ### 3. [历年真题](https://github.com/hao14293/2020-Postgraduate-408/tree/master/old-exam)
 
+
+### 会慢慢更新的， 大家一起加油啊。
+
 ***
 
 
-## 联系方式
+### 联系方式
 __QQ 5419141293__
 
 
