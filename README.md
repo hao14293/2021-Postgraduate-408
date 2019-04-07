@@ -55,28 +55,34 @@
 
 
 
-***
-***
-## 以下内容都是关于 ZJU考研 
 
-### 经验帖
+## 以下是关于 ZJU 的资料
+
+
+### 1. 经验帖
 
 ##### [19经验帖](https://shimo.im/docs/v1JbN8cQx2ouUVPv/read)（你需要的在经验贴里都可以找到答案。）
 
 
 
-### PAT
+### 2. 算法
+
+有没有竞赛经验对考研没有影响，有的话更好。浙大复试是<b>机试</b>和<b>面试</b>。机试成绩在总成绩中和初试是 1:1， 重要程度不言而喻。机试可以用前一年的<b>PAT甲或TOP</b>成绩来顶替,甲级成绩是 1： 1， top成绩是 1：1.5。
+
+[PAT官网](https://www.patest.cn/)， 下面是日常刷题的解答。（日常更新）
+
 
 * [PAT-B](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-B)
 * [PAT-A](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-A)
 
-***
-
-## 算法
+留个坑位总结常用算法 
 * [Algorithms](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Algorithm)
-***
+* [数据结构中的排序算法](https://github.com/hao14293/2020-Postgraduate-408/blob/master/Data-Structure/Sort/README.MD)
 
-### [历年真题](https://github.com/hao14293/2020-Postgraduate-408/tree/master/old-exam)
+
+
+
+### 3. [历年真题](https://github.com/hao14293/2020-Postgraduate-408/tree/master/old-exam)
 
 ***
 
