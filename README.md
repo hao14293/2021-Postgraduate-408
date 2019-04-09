@@ -42,6 +42,12 @@
 * 计算机组成原理 唐朔飞 第二版
 * 操作系统 汤子瀛
 
+### 视频资料
+* [计算机组成原理(哈工大)](https://www.bilibili.com/video/av15123338/)
+* [操作系统](https://www.bilibili.com/video/av6538245)
+* [计算机网络](https://www.bilibili.com/video/av9876107/)
+* [数据结构(浙大姥姥)](https://www.bilibili.com/video/av18586085/?p=2&t=170)
+
 ### 可选用辅导资料
 * 王道
 * 天勤
