@@ -95,6 +95,8 @@
 
 ### 3. [历年真题](https://github.com/hao14293/2020-Postgraduate-408/tree/master/old-exam)
 
+### 4. 浙大课程资料
+* [浙大课程资料](https://github.com/hao14293/zju-icicles)
 
 ### 会慢慢更新的， 大家一起加油啊。
 
