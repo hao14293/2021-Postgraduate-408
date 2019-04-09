@@ -93,10 +93,13 @@
 
 
 
-### 3. [历年真题](https://github.com/hao14293/2020-Postgraduate-408/tree/master/old-exam)
+### 3. 历年真题
+* [历年真题](https://github.com/hao14293/2020-Postgraduate-408/tree/master/old-exam)
 
 ### 4. 浙大课程资料
 * [浙大课程资料](https://github.com/hao14293/zju-icicles)
+* [姥姥的数据结构](https://www.bilibili.com/video/av18586085/?p=2&t=170)
+* [翁恺的C语言](https://www.bilibili.com/video/av15267247?from=search&seid=8077928265592538461)
 
 ### 会慢慢更新的， 大家一起加油啊。
 
