@@ -13,14 +13,14 @@ int main(){
 		for(int j = 1; j <= n; j++)
 			scanf("%d", &v[j]);
 		int current = 1;
-		for(int j = 1; j <= n; j++){
+		for(int j = 1; j <= n; j++){  // 大神的代码就是不一样，这步写的太妙了
 			s.push(j);
 			if(s.size() > m) break;
 			while(!s.empty() && s.top() == v[current]){
 				s.pop();
 				current++;
 			}
-		}
+		}   
 		if(current == n + 1) flag = true;
 		if(flag) printf("YES\n");
 		else printf("NO\n");
