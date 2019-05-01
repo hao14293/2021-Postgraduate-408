@@ -46,6 +46,7 @@
 ### 视频资料
 * [计算机组成原理(哈工大)](https://www.bilibili.com/video/av15123338/)
 * [操作系统](https://www.bilibili.com/video/av6538245)
+* [操作系统（哈工大）](https://www.bilibili.com/video/av17036347?from=search&seid=14190133416565908458)
 * [计算机网络](https://www.bilibili.com/video/av9876107/)
 * [数据结构(浙大姥姥)](https://www.bilibili.com/video/av18586085/?p=2&t=170)
 
