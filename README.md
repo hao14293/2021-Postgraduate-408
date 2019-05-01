@@ -83,6 +83,7 @@
 
 * [PAT-B](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-B)
 * [PAT-A](https://github.com/hao14293/2020-Postgraduate-408/tree/master/PAT/PAT-A)
+* [GPLT团体程序设计天梯赛](https://github.com/hao14293/2020-Postgraduate-408/tree/master/GPLT)
 * [ZJU-MOOC数据结构](https://github.com/hao14293/2020-Postgraduate-408/tree/master/ZJU_MOOC_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
 
 想刷题的话也有很多其他的网站，如
