@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/stars/hao14293/2020-Postgraduate-408.svg">
+![](https://img.shields.io/github/stars/hao14293/2020-Postgraduate-408.svg)
 
 <img src="https://i.loli.net/2018/11/18/5bf17b8557067.jpg" style="height: 50px;">
 
