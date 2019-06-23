@@ -2,7 +2,7 @@
 ![](https://img.shields.io/github/license/hao14293/2020-Postgraduate-408.svg)
 ![](https://img.shields.io/github/issues/hao14293/2020-Postgraduate-408.svg)
 ![](https://img.shields.io/github/languages/top/hao14293/2020-Postgraduate-408.svg?color=yellow)
-![](https://img.shields.io/github/commit-activity/m/hao14293/2020-Postgraduate-408.svg)
+![](https://img.shields.io/github/commit-activity/w/hao14293/2020-Postgraduate-408.svg)
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg) 
 ![](https://img.shields.io/github/search/hao14293/2020-Postgraduate-408/408.svg)
 ![](https://img.shields.io/librariesio/github/hao14293/2020-Postgraduate-408.svg)
