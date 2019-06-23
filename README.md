@@ -5,6 +5,10 @@
 ![](https://img.shields.io/github/commit-activity/m/hao14293/2020-Postgraduate-408.svg)
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg) 
 ![](https://img.shields.io/badge/daily-%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0-red.svg)
+![](https://img.shields.io/github/search/hao14293/2020-Postgraduate-408/408.svg)
+![](https://img.shields.io/librariesio/github/hao14293/2020-Postgraduate-408.svg)
+![](https://img.shields.io/github/stars/hao14293/2020-Postgraduate-408.svg?style=social)
+
 
 <img src="https://i.loli.net/2018/11/18/5bf17b8557067.jpg" style="height: 50px;">
 
