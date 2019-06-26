@@ -107,6 +107,7 @@
 
 留个坑位总结常用算法 
 
+* [日常总结](https://github.com/hao14293/2020-Postgraduate-408/tree/master/DailySummary)
 * [自己总结的数据结构中的排序算法](https://github.com/hao14293/2020-Postgraduate-408/blob/master/Data-Structure/Sort/README.MD)
 * [Algorithms](https://github.com/hao14293/2020-Postgraduate-408/tree/master/Algorithm)
 
