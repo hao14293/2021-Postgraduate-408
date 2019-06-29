@@ -133,3 +133,5 @@ while(s_new[i - p[i]] == s_new[i + p[i]])
 
 同理，我们也很容易知道最佳情况下的时间复杂度，即字符串内字符各不相同的时候。推算得平均访问每个字符 4 次，即时间复杂度为：<code>T<sub>best</sub>(n)=O(n)</code>。
 综上，Manacher 算法的时间复杂度为 <code>O(n)</code>。
+
+[原文](https://subetter.com/algorithm/manacher-algorithm.html)
