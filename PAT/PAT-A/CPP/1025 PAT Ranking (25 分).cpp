@@ -1,47 +1,39 @@
 #include <iostream>
-#include <string>
 #include <algorithm>
+#include <vector>
 using namespace std;
-
-struct Student{
-	string id;
-	int score;
-	int location_number;
-	int local_rank;
-}stu[30010];
-
-bool cmp(Student a, Student b){
-	if(a.score != b.score) return a.score > b.score;
-	else return a.id < b.id; 
+struct student {
+    long long int no;
+    int score, finrank, local, localrank;
+};
+bool cmp1(student a, student b) {
+    return a.score != b.score ? a.score > b.score : a.no < b.no;
 }
-
-int main(){
-	int n, k, num = 0;
-	cin >> n;
-	for(int i = 1; i <= n; i++){
-		cin >> k;
-		for(int j = 0; j < k; j++){
-			cin >> stu[num].id >> stu[num].score;
-			stu[num].location_number = i;
-			num++;
-		}
-		sort(stu + num - k, stu + num, cmp);
-		stu[num - k].local_rank = 1;
-		for(int j = num - k + 1; j < num; j++){
-			if(stu[j].score == stu[j - 1].score)
-				stu[j].local_rank = stu[j - 1].local_rank;
-			else
-				stu[j].local_rank = j + 1 - (num - k);
-		}
-	}
-	cout << num << endl;
-	sort(stu, stu + num, cmp);
-	int r = 1;
-	for(int i = 0; i < num; i++){
-		if(i > 0 && stu[i].score != stu[i - 1].score)
-			r = i + 1;
-		cout << stu[i].id << " ";
-		cout << r << " " << stu[i].location_number << " " << stu[i].local_rank << endl;
-	}
-	return 0;
+int main() {
+    int n, m;
+    scanf("%d", &n);
+    vector<student> fin;
+    for(int i = 1; i <= n; i++) {
+        scanf("%d", &m);
+        vector<student> v(m);
+        for(int j = 0; j < m; j++) {
+            scanf("%lld %d", &v[j].no, &v[j].score);
+            v[j].local = i;
+        }
+        sort(v.begin(), v.end(), cmp1);
+        v[0].localrank = 1;
+        fin.push_back(v[0]);
+        for(int j = 1; j < m; j++) {
+            v[j].localrank = (v[j].score == v[j - 1].score) ? (v[j - 1].localrank) : (j + 1);
+            fin.push_back(v[j]);
+        }
+    }
+    sort(fin.begin(), fin.end(), cmp1);
+    fin[0].finrank = 1;
+    for(int j = 1; j < fin.size(); j++)
+        fin[j].finrank = (fin[j].score == fin[j - 1].score) ? (fin[j - 1].finrank) : (j + 1);
+    printf("%d\n", fin.size());
+    for(int i = 0; i < fin.size(); i++)
+        printf("%013lld %d %d %d\n", fin[i].no, fin[i].finrank, fin[i].local, fin[i].localrank);
+    return 0;
 }
